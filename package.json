@@ -1,0 +1,38 @@
+{
+  "name": "Node-nunjucks-Camp12",
+  "version": "1.0.0",
+  "description": "쇼핑몰",
+  "main": "app.js",
+  "scripts": {
+    "start": "npx nodemon app.js",
+    "dev": "npx nodemon app.js"
+  },
+  "author": "소윤호",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "co": "^4.6.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^2.0.3",
+    "cookie-parser": "^1.4.4",
+    "csurf": "^1.9.0",
+    "dotenv": "^7.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-paginate": "^1.0.0",
+    "express-session": "^1.15.6",
+    "iamporter": "^1.4.2",
+    "moment": "^2.24.0",
+    "mongodb": "^3.1.13",
+    "mongoose": "^4.11.2",
+    "mongoose-plugin-autoinc": "^1.1.9",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "passport": "^0.4.0",
+    "passport-facebook": "^3.0.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "request": "^2.88.0",
+    "socket.io": "^2.2.0"
+  }
+}
